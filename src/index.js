@@ -1,8 +1,5 @@
 import React from "react";
 import reactDom from "react-dom";
+import SayHello from "./components/simpleComponents";
 
-const SayHello = props => {
-  return <h1>Hello {props.name}</h1>;
-};
-
-reactDom.render(<SayHello name="goku" />, document.getElementById("root"));
+reactDom.render(<SayHello name="krillen" />, document.getElementById("root"));
